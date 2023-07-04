@@ -14,3 +14,6 @@ Oracle database has three things
     2.Mount mode: Only DBA can access the database, where DBA can do some maintenance/upgradation/migration activites
     3.Inactive mode: No one can access/use the database, this is where pre-requisites are done before mounting the database    
 
+2.DB Logical View
+
+Database -> TableSpace -> Segment -> Block
