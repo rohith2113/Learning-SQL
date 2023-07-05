@@ -14,6 +14,30 @@ Oracle database has three things
     2.Mount mode: Only DBA can access the database, where DBA can do some maintenance/upgradation/migration activites
     3.Inactive mode: No one can access/use the database, this is where pre-requisites are done before mounting the database    
 
+    Example: Potter man 
+        1.Sand/clay is a database which is of no use, --> inactive mode
+        2.Clay Pottery, here database is being prepared (like creation,updation,delection etc) for use --> mount Mode
+        3.Pot, here database is ready to use -->Open Mode
+
+
 2.DB Logical View
+    ->Here we are going to see the data in the database in a picturized way
 
 Database -> TableSpace -> Segment -> Block
+
+In a large databse, there are table spaces which are logical storage units, 
+    then these tablespaces are divided into segments,
+        then these segments are divided into blocks.
+**The smallest respresentation inside a database is a Block
+
+    Example:Apartments
+        1.Apartments, it is like a server, where we have multiple blocks of Apartments i.e, multiple databases are present
+        ->>Blocks per apartment i.e, databases per server
+        2.In each apartment block, we have floors per block i.e, tablespaces
+        ->>Floors per block i.e, tablespaces for database
+        3.In each floor, we have multiple flats divided according to the size of the floor i.e, segments
+        ->>Flats per floor i.e, segments for Database
+        4.In each flat, we have multiple rooms i.e, blocks
+        ->>Rooms per flat i.e, blocks for database  
+
+3.DB objects
