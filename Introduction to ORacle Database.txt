@@ -41,3 +41,57 @@ In a large databse, there are table spaces which are logical storage units,
         ->>Rooms per flat i.e, blocks for database  
 
 3.DB objects
+    ->These are the list of objects that we can find inside the database
+Tables
+Views
+Functions
+Indexes
+Sequences
+Materialized views
+Triggers
+Stored Procedures
+Packages
+
+These are the list of objects that we can find inside the database
+
+1.Tables
+Any data we put in the database it has to stored in some form ( like tables )
+
+Since ORACLE database is RDBMS system, ( Relational Database management system ) so everything inside this Oracle database is stored in a tabular format.
+
+2.Views
+Views are virtual tables. 
+
+When you need a set of data in a single table from combination of different tables, in such cases you can write that particular query and you can store the query inside the database and the there will be this table according to the query you wrote created already ( in virtualised format ) so whenever you run that particular query this table appears.  This is how views can be used. 
+
+View is query which can refer one or more tables from different multiple tables and gives result as a table
+
+3. Functions
+These are small logical parts.
+Whenever we apply these functions they give the results according to the logic
+
+4. Indexes, they are used for fast retrievals
+They are helpful for users.
+Indexes help to retrieve the data from the databases in fast manner. 
+When there is large database, this indexing methodology helps to easy and faster 
+
+5.Sequences
+These generate series of numbers
+Used to give numbering
+
+6.Materialized views
+Tables hold data, views are virtual queries, when we want to store the data of this virtual query inside a database here comes this materialized views, 
+Result of view and the query are stored they are called as materialised views.
+
+7.Triggers
+Action based on a event is trigger.
+When we change some data of a particular table, which has a relevant data and impacts other tables this trigger does the required actions.
+
+8.Stored Procedures
+These are combination of some operations and logical units that performs an action . These procedures are put up and referred inside or outside a package.
+
+
+9.Packages
+And the results are then put up into different packages
+
+

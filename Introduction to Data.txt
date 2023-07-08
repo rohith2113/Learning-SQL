@@ -1,0 +1,16 @@
+Here we are going to discuss to about data types and constraints
+
+Data types
+Char
+Varchar2
+Integer
+Decimal
+Date
+Timestamp
+CLOB
+BLOB
+BFILE
+
+CHAR vs VARCHAR2
+refer screenshot_1 in images folder
+
