@@ -1,0 +1,41 @@
+Here We are going to learn about SQL
+
+SQL - Structured Query Language
+
+Categories:
+Data Definition Language (DDL)
+Data Manipulation Language (DML)
+Transaction Control Language (TCL)
+Data Control Language (DCL)
+Data Retrieval Language (DRL)
+
+1. Data Definition Language (DDL)
+->To define the database objects in a database
+    CREATE -> to create new database objects
+    ALTER -> to modify the structure of the database objects
+    DROP -> to delete the database objects
+    TRUNCATE -> to delete all the records from the table ( table blueprint will be present but the data will be deleted)
+    RENAME -> to rename the database objects
+
+**** refer screenshot_3 in images folder****
+
+
+2. Data Manipulation Language (DML)
+->To manipulate the data in the database objects
+    INSERT -> to insert the data into the table
+    UPDATE -> to update the data in the table
+    DELETE -> to delete the data from the table 
+    ( in case of delete the data will be deleted permanently from the table, 
+    but in case of truncate all the data will be deleted but the table blueprint will be present,
+    here in delete only selected data will be deleted but in truncate all the data will be deleted)
+
+**** refer screenshot_4 in images folder****
+
+3. Transaction Control Language (TCL)
+->To control the transactions in the database
+    COMMIT -> to save the changes in the database
+    ROLLBACK -> to undo the changes in the database
+    SAVEPOINT -> to save the intermediate changes in the database
+
+
+    

@@ -81,4 +81,37 @@ CONSTRAINTS
 4.Not Null
 5.Check
 
+**data types tells what kind of data need to be stored inside the column
+
+**Constraints will check whether the valid/right is being entered into the particular column or not
+
 1.Primary Key
+->Only one column can be declared as a primary Key (important column of a table)
+->No duplicates are allowed
+->No null values are allowed
+->Auto-indexed ( automaticlly creates index for the primary key column)
+
+2.Unique Key
+->More than one column can be declared as a unique key
+->No duplicates are allowed
+->Null values are allowed
+->Auto-indexed ( automaticlly creates index for the unique key column) (since there is no duplicates this is important column so we can use this column as a unique key)   
+
+3.Foreign Key
+->More than one column can be declared as a foreign key
+->Duplicates are allowed as they are referenced values from the primary key of another table
+->Null values are allowed as they are referenced values
+
+4.Not Null
+->More than one column can be declared as a not null
+->Duplicates are allowed
+->No null values are allowed
+
+5.Check
+->Any columns can be checked for its value  
+        Ex: Salary > 20000
+        This allows only the values greater than 20000 to be entered into the salary column
+->Duplicates are allowed
+
+
+*****refer screenshot_2 in images folder******
