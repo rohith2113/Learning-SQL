@@ -1,0 +1,6 @@
+In the upcoming session we are going to discuss the five things in details
+CREATE
+ALTER
+DROP
+TRUNCATE
+RENAME

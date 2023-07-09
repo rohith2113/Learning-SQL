@@ -1,0 +1,4 @@
+Here we are going to discuss about the DDL statement in detail
+
+Let's start with create statement
+ 

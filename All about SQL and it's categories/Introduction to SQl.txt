@@ -37,5 +37,17 @@ Data Retrieval Language (DRL)
     ROLLBACK -> to undo the changes in the database
     SAVEPOINT -> to save the intermediate changes in the database
 
+**** refer screenshot_5 in images folder****
 
-    
+4. Data Control Language (DCL)
+->To control the access of the database objects
+    GRANT -> to provide the access to the database objects
+    REVOKE -> to restrict the access to the database objects
+
+**** refer screenshot_6 in images folder****
+
+5. Data Retrieval Language (DRL)
+->To retrieve the data from the database objects
+    SELECT -> to retrieve the data from the table
+
+**** refer screenshot_7 in images folder****
