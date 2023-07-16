@@ -1,0 +1,4 @@
+-- here we are going to discuss about the ALTER statement
+-- ALTER statement is used to modify the existing the values in the table in the future if wanted
+
+examples are dicussed in next sql file
